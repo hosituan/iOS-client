@@ -10,6 +10,7 @@ target 'NFT-Social (iOS)' do
   pod 'SDWebImageSwiftUI'
   pod 'SwiftyJSON'
   pod 'Alamofire', '~> 5.2'
+  pod 'SDWebImageSwiftUI'
   # Pods for NFT-Social (iOS)
 
 end

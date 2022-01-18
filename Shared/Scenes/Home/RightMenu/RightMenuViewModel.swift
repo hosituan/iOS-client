@@ -15,6 +15,8 @@ class RightMenuViewModel: BaseViewModel {
     }
     @Published var showAlert = false
     
+    @Published var user: User = User(displayName: "Ho Si Tuan", username: "hosituan")
+    
     func login() {
         APIService.login(username: "admin", password: "1111", completionHandler: { response, error in
             DispatchQueue.main.async {

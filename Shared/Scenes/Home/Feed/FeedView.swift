@@ -15,16 +15,6 @@ struct FeedView: View {
     @ObservedObject var viewModel = FeedViewModel()
     var body: some View {
         VStack {
-            Button {
-                menuViewModel.isLeftMenuVisible.toggle()
-            } label: {
-                Text("show")
-            }.padding()
-            Button {
-                viewModel.login()
-            } label: {
-                Text("Login")
-            }
             Text("Noname")
         }
         .alert(isPresented: $viewModel.showAlert) {
@@ -34,6 +24,20 @@ struct FeedView: View {
                 dismissButton: .default(Text("OK"))
             )
         }
+        .navigationBarItems(
+            trailing:
+                Button {
+                    menuViewModel.isRightMenuVisible.toggle()
+                } label: {
+                    Image.Navigation.hambuger
+                        .resizable()
+                        .foregroundColor(Color.mainColor)
+                        .frame(width: 20, height: 20, alignment: .center)
+                        .padding(.trailing, 6)
+                        .padding(.top, 6)
+                }
+            
+        )
         .navigationTitle("Hello")
     }
     

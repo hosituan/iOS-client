@@ -13,10 +13,19 @@ struct ContentView: View {
         ZStack {
             NavigationView {
                 FeedView()
+                    .background(
+                        navigationLink
+                    )
             }
             RightNavigationView()
         }
         .environmentObject(self.viewModel)
+    }
+    
+    var navigationLink: some View {
+        VStack {
+            NavigationLink(destination: ProfileView(), isActive: $viewModel.isShowProfile, label: {})
+        }
     }
 }
 
@@ -28,6 +37,23 @@ struct ContentView_Previews: PreviewProvider {
 
 
 class MenuViewModel: ObservableObject {
-    @Published var isLeftMenuVisible: Bool = false
+    
+    @Published var isRightMenuVisible: Bool = false
+    @Published var isShowSetting: Bool = false {
+        didSet {
+            isRightMenuVisible = false
+        }
+    }
+    @Published var isShowNoti = false  {
+        didSet {
+            isRightMenuVisible = false
+        }
+    }
+    @Published var isShowProfile = false  {
+        didSet {
+            isRightMenuVisible = false
+        }
+    }
+    
 }
 
