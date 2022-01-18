@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AB7DC1C11E19FCC06EBD550 /* Pods_NFT_Social__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A119A0CE47348BB1FDE646 /* Pods_NFT_Social__macOS_.framework */; };
 		FBC7321727957F5500514C13 /* NFT_SocialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC7320727957F5100514C13 /* NFT_SocialApp.swift */; };
 		FBC7321827957F5500514C13 /* NFT_SocialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC7320727957F5100514C13 /* NFT_SocialApp.swift */; };
 		FBC7321927957F5500514C13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC7320827957F5100514C13 /* ContentView.swift */; };
 		FBC7321A27957F5500514C13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC7320827957F5100514C13 /* ContentView.swift */; };
 		FBC7321B27957F5500514C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC7320927957F5500514C13 /* Assets.xcassets */; };
 		FBC7321C27957F5500514C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC7320927957F5500514C13 /* Assets.xcassets */; };
+		FBC73252279586E500514C13 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC73251279586E500514C13 /* FeedView.swift */; };
+		FBC73254279588C500514C13 /* RightMenuNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC73253279588C500514C13 /* RightMenuNavigationView.swift */; };
+		FBC732562795891200514C13 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC732552795891200514C13 /* FeedViewModel.swift */; };
+		FBC7325827958C9300514C13 /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC7325727958C9300514C13 /* UIScreen.swift */; };
+		FBC7325D279594A200514C13 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC7325C279594A200514C13 /* BaseViewModel.swift */; };
+		FBC7325F279594E400514C13 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC7325E279594E400514C13 /* APIService.swift */; };
+		FBC732612795952E00514C13 /* CommonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC732602795952E00514C13 /* CommonResponse.swift */; };
+		FBC732632795B13400514C13 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC732622795B13400514C13 /* LoginResponse.swift */; };
+		FBC732652795B44D00514C13 /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC732642795B44D00514C13 /* DataCenter.swift */; };
+		FBC732672795B55D00514C13 /* RightMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC732662795B55D00514C13 /* RightMenuViewModel.swift */; };
+		FDFC91B8CE5ECD3ABB155D54 /* Pods_NFT_Social__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E905ACA9FD58DF726B085EB /* Pods_NFT_Social__iOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2298EDC10CAA8F6E7E54ABDC /* Pods-NFT-Social (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFT-Social (iOS).release.xcconfig"; path = "Target Support Files/Pods-NFT-Social (iOS)/Pods-NFT-Social (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		24A119A0CE47348BB1FDE646 /* Pods_NFT_Social__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFT_Social__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7F4E00DD0A393F89FBA79D /* Pods-NFT-Social (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFT-Social (macOS).debug.xcconfig"; path = "Target Support Files/Pods-NFT-Social (macOS)/Pods-NFT-Social (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		9E905ACA9FD58DF726B085EB /* Pods_NFT_Social__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFT_Social__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD188B5F2073E5B461D43A4E /* Pods-NFT-Social (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFT-Social (macOS).release.xcconfig"; path = "Target Support Files/Pods-NFT-Social (macOS)/Pods-NFT-Social (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		F4CC75D2E32D96A194C3CCFD /* Pods-NFT-Social (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFT-Social (iOS).debug.xcconfig"; path = "Target Support Files/Pods-NFT-Social (iOS)/Pods-NFT-Social (iOS).debug.xcconfig"; sourceTree = "<group>"; };
 		FBC7320727957F5100514C13 /* NFT_SocialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFT_SocialApp.swift; sourceTree = "<group>"; };
 		FBC7320827957F5100514C13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FBC7320927957F5500514C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBC7320E27957F5500514C13 /* NFT-Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NFT-Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC7321427957F5500514C13 /* NFT-Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NFT-Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC7321627957F5500514C13 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FBC73251279586E500514C13 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		FBC73253279588C500514C13 /* RightMenuNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightMenuNavigationView.swift; sourceTree = "<group>"; };
+		FBC732552795891200514C13 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		FBC7325727958C9300514C13 /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
+		FBC7325C279594A200514C13 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		FBC7325E279594E400514C13 /* APIService.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		FBC732602795952E00514C13 /* CommonResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonResponse.swift; sourceTree = "<group>"; };
+		FBC732622795B13400514C13 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		FBC732642795B44D00514C13 /* DataCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
+		FBC732662795B55D00514C13 /* RightMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightMenuViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDFC91B8CE5ECD3ABB155D54 /* Pods_NFT_Social__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,26 +65,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AB7DC1C11E19FCC06EBD550 /* Pods_NFT_Social__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3905F9583A53CE7718EEB904 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4CC75D2E32D96A194C3CCFD /* Pods-NFT-Social (iOS).debug.xcconfig */,
+				2298EDC10CAA8F6E7E54ABDC /* Pods-NFT-Social (iOS).release.xcconfig */,
+				8C7F4E00DD0A393F89FBA79D /* Pods-NFT-Social (macOS).debug.xcconfig */,
+				AD188B5F2073E5B461D43A4E /* Pods-NFT-Social (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D26ABA407BFCDFAAB1A4F9F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E905ACA9FD58DF726B085EB /* Pods_NFT_Social__iOS_.framework */,
+				24A119A0CE47348BB1FDE646 /* Pods_NFT_Social__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FBC7320127957F5000514C13 = {
 			isa = PBXGroup;
 			children = (
+				FBC7325B2795949600514C13 /* Base */,
+				FBC7322F2795845D00514C13 /* Library */,
 				FBC7320627957F5100514C13 /* Shared */,
 				FBC7321527957F5500514C13 /* macOS */,
 				FBC7320F27957F5500514C13 /* Products */,
+				3905F9583A53CE7718EEB904 /* Pods */,
+				D26ABA407BFCDFAAB1A4F9F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		FBC7320627957F5100514C13 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				FBC7322527957F6600514C13 /* Scenes */,
+				FBC7322827957F9300514C13 /* Extension */,
+				FBC7322727957F8600514C13 /* Utils */,
+				FBC7322627957F7100514C13 /* RestAPIService */,
 				FBC7320727957F5100514C13 /* NFT_SocialApp.swift */,
 				FBC7320827957F5100514C13 /* ContentView.swift */,
+				FBC732642795B44D00514C13 /* DataCenter.swift */,
 				FBC7320927957F5500514C13 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -78,6 +137,105 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		FBC7322527957F6600514C13 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7322C27957FBB00514C13 /* Login */,
+				FBC7322B27957FB100514C13 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FBC7322627957F7100514C13 /* RestAPIService */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7322A27957FA900514C13 /* Response */,
+				FBC7322927957FA500514C13 /* Request */,
+				FBC7325E279594E400514C13 /* APIService.swift */,
+			);
+			path = RestAPIService;
+			sourceTree = "<group>";
+		};
+		FBC7322727957F8600514C13 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FBC7322827957F9300514C13 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7325727958C9300514C13 /* UIScreen.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FBC7322927957FA500514C13 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		FBC7322A27957FA900514C13 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				FBC732602795952E00514C13 /* CommonResponse.swift */,
+				FBC732622795B13400514C13 /* LoginResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		FBC7322B27957FB100514C13 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7325A27958E7B00514C13 /* Feed */,
+				FBC7325927958E6700514C13 /* RightMenu */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FBC7322C27957FBB00514C13 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FBC7322F2795845D00514C13 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		FBC7325927958E6700514C13 /* RightMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FBC73253279588C500514C13 /* RightMenuNavigationView.swift */,
+				FBC732662795B55D00514C13 /* RightMenuViewModel.swift */,
+			);
+			path = RightMenu;
+			sourceTree = "<group>";
+		};
+		FBC7325A27958E7B00514C13 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				FBC732552795891200514C13 /* FeedViewModel.swift */,
+				FBC73251279586E500514C13 /* FeedView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		FBC7325B2795949600514C13 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7325C279594A200514C13 /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBC7321F27957F5500514C13 /* Build configuration list for PBXNativeTarget "NFT-Social (iOS)" */;
 			buildPhases = (
+				021CE67B1AC2F781F6F987B5 /* [CP] Check Pods Manifest.lock */,
 				FBC7320A27957F5500514C13 /* Sources */,
 				FBC7320B27957F5500514C13 /* Frameworks */,
 				FBC7320C27957F5500514C13 /* Resources */,
+				99C7E76C1398AAC88749DA34 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -102,6 +262,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBC7322227957F5500514C13 /* Build configuration list for PBXNativeTarget "NFT-Social (macOS)" */;
 			buildPhases = (
+				3678B2D8AC7E1E4F29390B6B /* [CP] Check Pods Manifest.lock */,
 				FBC7321027957F5500514C13 /* Sources */,
 				FBC7321127957F5500514C13 /* Frameworks */,
 				FBC7321227957F5500514C13 /* Resources */,
@@ -171,12 +332,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		021CE67B1AC2F781F6F987B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NFT-Social (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3678B2D8AC7E1E4F29390B6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NFT-Social (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99C7E76C1398AAC88749DA34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NFT-Social (iOS)/Pods-NFT-Social (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NFT-Social (iOS)/Pods-NFT-Social (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFT-Social (iOS)/Pods-NFT-Social (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FBC7320A27957F5500514C13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FBC7321927957F5500514C13 /* ContentView.swift in Sources */,
+				FBC7325827958C9300514C13 /* UIScreen.swift in Sources */,
+				FBC732652795B44D00514C13 /* DataCenter.swift in Sources */,
+				FBC73252279586E500514C13 /* FeedView.swift in Sources */,
+				FBC7325D279594A200514C13 /* BaseViewModel.swift in Sources */,
+				FBC732632795B13400514C13 /* LoginResponse.swift in Sources */,
+				FBC732672795B55D00514C13 /* RightMenuViewModel.swift in Sources */,
+				FBC73254279588C500514C13 /* RightMenuNavigationView.swift in Sources */,
+				FBC732562795891200514C13 /* FeedViewModel.swift in Sources */,
+				FBC7325F279594E400514C13 /* APIService.swift in Sources */,
+				FBC732612795952E00514C13 /* CommonResponse.swift in Sources */,
 				FBC7321727957F5500514C13 /* NFT_SocialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +541,7 @@
 		};
 		FBC7322027957F5500514C13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4CC75D2E32D96A194C3CCFD /* Pods-NFT-Social (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,7 +555,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,6 +572,7 @@
 		};
 		FBC7322127957F5500514C13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2298EDC10CAA8F6E7E54ABDC /* Pods-NFT-Social (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -349,7 +586,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -367,6 +604,7 @@
 		};
 		FBC7322327957F5500514C13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C7F4E00DD0A393F89FBA79D /* Pods-NFT-Social (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -395,6 +633,7 @@
 		};
 		FBC7322427957F5500514C13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD188B5F2073E5B461D43A4E /* Pods-NFT-Social (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

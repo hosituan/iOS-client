@@ -1,0 +1,54 @@
+PODS:
+  - Alamofire (5.5.0)
+  - Cache (6.0.0)
+  - Imaginary (5.0.0):
+    - Cache (~> 6.0.0)
+  - Introspect (0.1.3)
+  - Lightbox (2.5.0):
+    - Imaginary (~> 5.0.0)
+  - MXParallaxHeader (1.1.0)
+  - SDWebImage (5.12.2):
+    - SDWebImage/Core (= 5.12.2)
+  - SDWebImage/Core (5.12.2)
+  - SDWebImageSwiftUI (2.0.2):
+    - SDWebImage (~> 5.10)
+  - SwiftUIRefresh (0.0.3):
+    - Introspect (~> 0.1.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - Lightbox
+  - MXParallaxHeader
+  - SDWebImageSwiftUI
+  - SwiftUIRefresh
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cache
+    - Imaginary
+    - Introspect
+    - Lightbox
+    - MXParallaxHeader
+    - SDWebImage
+    - SDWebImageSwiftUI
+    - SwiftUIRefresh
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  Cache: 4ca7e00363fca5455f26534e5607634c820ffc2d
+  Imaginary: cf5e3a7dd6ab1dcbd47ba8ce5edf2307c4e99eb3
+  Introspect: 2be020f30f084ada52bb4387fff83fa52c5c400e
+  Lightbox: cc3d5124f024fa8197fd23f913160db1c61a1852
+  MXParallaxHeader: de3c867e10ba46e8f6e20c8ee1f2a910372b3b94
+  SDWebImage: 240e5c12b592fb1268c1d03b8c90d90e8c2ffe82
+  SDWebImageSwiftUI: 8a3923c95108312b03a599ec1498754af55a6819
+  SwiftUIRefresh: ca6ae2718d25aad5dd68bbf5d2ae36ef6ade98bf
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 4439ca04c2b30b9ff0397ae0a26f1036edf0b6fe
+
+COCOAPODS: 1.11.2

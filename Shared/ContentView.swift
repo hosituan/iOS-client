@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel = MenuViewModel()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            NavigationView {
+                FeedView()
+            }
+            RightNavigationView()
+        }
+        .environmentObject(self.viewModel)
     }
 }
 
@@ -19,3 +25,9 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+class MenuViewModel: ObservableObject {
+    @Published var isLeftMenuVisible: Bool = false
+}
+
